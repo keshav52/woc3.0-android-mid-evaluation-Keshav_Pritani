@@ -21,6 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:onClick="mondayClicked"
         android:text="Monday" />
 
     <Button
@@ -28,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:onClick="tuesdayClicked"
         android:text="Tuesday" />
 
     <Button
@@ -35,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:onClick="wednesdayClicked"
         android:text="Wenesday" />
 
     <Button
@@ -42,13 +45,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="Thusday" />
+        android:onClick="thursdayClicked"
+        android:text="Thursday" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:onClick="fridayClicked"
         android:text="Friday" />
 
     <Button
@@ -56,5 +61,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:onClick="saturdayClicked"
         android:text="Saturday" />
 </LinearLayout>

@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TimeTableApp">
-        <activity android:name=".MondayActivity"></activity>
+        <activity android:name=".MondayActivity"/>
+        <activity android:name=".TuesdayActivity"/>
+        <activity android:name=".WednesdayActivity"/>
+        <activity android:name=".ThursdayActivity"/>
+        <activity android:name=".FridayActivity"/>
+        <activity android:name=".SaturdayActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,13 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/Theme.TimeTableApp"
     tools:context=".MondayActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="Monday"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:divider="@color/purple_200"
         android:orientation="vertical"
+        android:scrollbarThumbHorizontal="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,29 +36,41 @@
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/purple_700"
+                android:gravity="center_horizontal"
                 android:padding="10dp"
-                android:text="Time" />
+                android:text="Time"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/purple_700"
+                android:gravity="center_horizontal"
                 android:padding="10dp"
-                android:text="Code" />
+                android:text="Code"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/purple_700"
+                android:gravity="center_horizontal"
                 android:padding="10dp"
-                android:text="Subject" />
+                android:text="Subject"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/purple_700"
+                android:gravity="center_horizontal"
                 android:padding="10dp"
-                android:text="Professor" />
+                android:text="Professor"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
